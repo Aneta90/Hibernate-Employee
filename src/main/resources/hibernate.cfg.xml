@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Ustawienia polaczenia z baza danych -->
+        <property name="connection.driver_class">org.h2.Driver</property>
+        <property name="connection.url">jdbc:h2:./data/contactmgr;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO</property>
+        <!--<property name="connection.url">jdbc:h2:./db2</property>-->
+        <property name="connection.username">sa</property>
+        <property name="connection.password"/>
+        <property name="dialect">org.hibernate.dialect.H2Dialect</property>
+        <!-- Wyswietlaj w konsoli wszystkie kody SQL - bezcenne przy debugowaniu -->
+        <property name="show_sql">true</property>
+        <!-- Przy starcie aplikacji usun istniejaca baze i utworz ja od nowa -->
+        <property name="hbm2ddl.auto">create-drop</property>
+        <!-- Klasy mapowane -->
+        <mapping class="pl.sda.hibernate.domain.Employee"/>
+        <mapping class="pl.sda.hibernate.domain.Adress"/>
+        <mapping class="pl.sda.hibernate.domain.Department"/>
+        <mapping class="pl.sda.hibernate.domain.EmployeeInfo"/>
+        <mapping class="pl.sda.hibernate.domain.PhysicalEmployee"/>
+        <mapping class="pl.sda.hibernate.domain.NonPhysicalEmployee"/>
+        <mapping class="pl.sda.hibernate.domain.EmployeeInfoValidator"/>
+        <mapping class="pl.sda.hibernate.domain.Candidates"/>
+    </session-factory>
+</hibernate-configuration>
