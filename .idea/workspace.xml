@@ -2,66 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80d92667-155d-44d7-8fcb-3ab00805bb5e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateTutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/contactmgr.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/contactmgr.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db2.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Adress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Candidates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/EmployeeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/EmployeeInfoValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/NonPhysicalEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/PhysicalEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/pl/sda/hibernate/impl/AfterCompanyWasCreated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/pl/sda/hibernate/impl/DefaultAfterCompanyWasCreatedValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/pl/sda/hibernate/util/SessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/service/DefaultEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/hibernate/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/domain/CandidatesFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/domain/DomainRelationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/domain/EmployeeInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/domain/EmployeeInfoValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/domain/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/domain/InheritanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/pl/sda/hibernate/util/SessionUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/hibernate/service/DefaultEmployeeServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Adress$AdressBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Adress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Candidates$CandidatesBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Candidates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Department$DepartmentBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Employee$EmployeeBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/EmployeeInfo$EmployeeInfoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/EmployeeInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/EmployeeInfoValidator$EmployeeInfoValidatorBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/EmployeeInfoValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/NonPhysicalEmployee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/domain/PhysicalEmployee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/pl/sda/hibernate/impl/AfterCompanyWasCreated.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/pl/sda/hibernate/impl/DefaultAfterCompanyWasCreatedValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/pl/sda/hibernate/util/SessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/service/DefaultEmployeeService$DefaultEmployeeServiceBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/service/DefaultEmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/hibernate/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/domain/CandidatesFilterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/domain/DomainRelationsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/domain/EmployeeInfoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/domain/EmployeeInfoValidatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/domain/EmployeeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/domain/InheritanceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/pl/sda/hibernate/util/SessionUtilTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/hibernate/service/DefaultEmployeeServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateTutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Adress.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/EmployeeInfoValidator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/service/DefaultEmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1176#1177#0" expanded="true" />
@@ -179,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/hibernate/pl/sda/hibernate/util/SessionUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -271,139 +214,6 @@
               <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HibernateTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HibernateTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -413,6 +223,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="mysql&#9;FILE&#9;jar://C:/Users/aw22/.m2/repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar!/com/mysql" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/pl/sda/hibernate" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -463,7 +274,7 @@
       <patterns />
     </configuration>
     <configuration name="DefaultEmployeeServiceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HibernateTutorial" />
+      <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.sda.hibernate.service.*" />
@@ -492,7 +303,7 @@
       <listeners />
     </configuration>
     <configuration name="DefaultEmployeeServiceTest.isEmployeeFoundTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HibernateTutorial" />
+      <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.sda.hibernate.service.*" />
@@ -521,7 +332,7 @@
       <listeners />
     </configuration>
     <configuration name="DefaultEmployeeServiceTest.isEmployeeRemovedTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HibernateTutorial" />
+      <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.sda.hibernate.service.*" />
@@ -550,7 +361,7 @@
       <listeners />
     </configuration>
     <configuration name="DefaultEmployeeServiceTest.isEmployeeSavedToDatabaseTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HibernateTutorial" />
+      <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.sda.hibernate.service.*" />
@@ -579,7 +390,7 @@
       <listeners />
     </configuration>
     <configuration name="DefaultEmployeeServiceTest.isEmployeeUpdatedTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HibernateTutorial" />
+      <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.sda.hibernate.service.*" />
@@ -704,10 +515,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32838285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30862328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30862328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1068,7 +879,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/hibernate/pl/sda/hibernate/util/SessionUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1082,7 +893,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/service/DefaultEmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1176#1177#0" expanded="true" />
@@ -1094,7 +905,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/EmployeeInfoValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1114,7 +925,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Adress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1134,7 +945,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/hibernate/domain/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
