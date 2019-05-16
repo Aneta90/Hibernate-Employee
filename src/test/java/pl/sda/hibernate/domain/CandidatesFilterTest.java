@@ -1,14 +1,11 @@
 package pl.sda.hibernate.domain;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-import org.hibernate.Filter;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import org.testng.annotations.Test;
 import pl.sda.hibernate.pl.sda.hibernate.util.SessionUtil;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.testng.AssertJUnit.assertEquals;
@@ -20,29 +17,26 @@ public class CandidatesFilterTest {
     @Test
     public void testFilters() {
 
-        Candidates candidates = Candidates.builder()
-                .id(1L)
-                .name("Anetaa")
-                .surname("Sun")
-                .jobApplicationStatus("active")
-                .previousExperienceInYears(6L)
-                .build();
+        Candidates candidates = new Candidates();
+        candidates.setId(1L);
+        candidates.setName("Anetaa");
+        candidates.setSurname("Sun");
+        candidates.setJobApplicationStatus("active");
+        candidates.setPreviousExperienceInYears(6L);
 
-        Candidates candidates1 = Candidates.builder()
-                .id(2L)
-                .name("Kate")
-                .surname("Moon")
-                .jobApplicationStatus("active")
-                .previousExperienceInYears(3L)
-                .build();
+        Candidates candidates1 = new Candidates();
+                candidates1.setId(2L);
+                candidates1.setName("Kate");
+                candidates1.setSurname("Ka");
+                candidates1.setJobApplicationStatus("active");
+                candidates1.setPreviousExperienceInYears(3L);
 
-        Candidates candidates3 = Candidates.builder()
-                .id(3L)
-                .name("Tom")
-                .surname("Tomson")
-                .jobApplicationStatus("non-active")
-                .previousExperienceInYears(10L)
-                .build();
+        Candidates candidates3 = new Candidates();
+                candidates3.setId(3L);
+                candidates3.setName("Tom");
+                candidates3.setSurname("Tomson");
+                candidates3.setJobApplicationStatus("non-active");
+                candidates3.setPreviousExperienceInYears(10L);
 
         try (Session session = SessionUtil.getSession()) {
             Transaction transaction = session.beginTransaction();

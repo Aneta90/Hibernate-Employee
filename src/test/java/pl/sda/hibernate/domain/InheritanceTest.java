@@ -6,7 +6,6 @@ import org.hibernate.Transaction;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import pl.sda.hibernate.pl.sda.hibernate.util.SessionUtil;
@@ -38,14 +37,14 @@ public class InheritanceTest {
         employee.setId(4L);
         employee.setName("Ana");
         employee.setSurname("Ann");
-        ((NonPhysicalEmployee) employee).setSalary(200.00);
+        ((NonPhysicalEmployee) employee).setSalary(2000.00);
         ((NonPhysicalEmployee) employee).setExtraSalary(200.00);
 
         Employee employee1 = new PhysicalEmployee();
         employee1.setId(5L);
         employee1.setName("Tom");
         employee1.setSurname("Tomman");
-        ((PhysicalEmployee) employee1).setSalary(100.00);
+        ((PhysicalEmployee) employee1).setSalary(2000.00);
         ((PhysicalEmployee) employee1).setExtraSalary(100.00);
 
         try(Session session = SessionUtil.getSession()){

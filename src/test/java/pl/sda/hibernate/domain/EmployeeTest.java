@@ -31,12 +31,11 @@ public class EmployeeTest {
     public void shouldSaveGivenEmployeeTest(){
 
         Adress adress = new Adress();
-        Employee employee = new Employee.EmployeeBuilder()
-                .id(1L)
-                .name("Anett")
-                .surname("Wrobel")
-                .adress(adress)
-                .build();
+        Employee employee = new Employee();
+                employee.setId(1L);
+                employee.setName("Anett");
+                employee.setSurname("Wrobel");
+                employee.setAdress(adress);
 
         try(Session session = SessionUtil.getSession()){
             Transaction transaction = session.beginTransaction();

@@ -34,21 +34,23 @@ public class DefaultEmployeeServiceTest {
 
     private Employee createEmployee(final Long id, final String name, final String surname) {
 
-        return Employee.builder()
-                .id(id)
-                .name(name)
-                .surname(surname)
-                .build();
+        Employee employee = new Employee();
+        employee.setId(id);
+        employee.setName(name);
+        employee.setSurname(surname);
+
+        return employee;
     }
 
     private Adress createAdress(final String city, final String street, final String zipCode,final int streetNumber) {
 
-        return Adress.builder()
-                .city(city)
-                .street(street)
-                .zipCode(zipCode)
-                .streetNumber(streetNumber)
-                .build();
+        Adress adress = new Adress();
+        adress.setCity(city);
+        adress.setStreet(street);
+        adress.setZipCode(zipCode);
+        adress.setStreetNumber(streetNumber);
+
+        return adress;
     }
 
     private void insertIntoDatabase() {

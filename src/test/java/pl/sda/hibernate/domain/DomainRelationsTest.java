@@ -56,22 +56,17 @@ public class DomainRelationsTest {
 
         Long departmentId, employeeId, employee1Id;
         List<Employee> employeeList = new LinkedList<>();
-        Department department = new Department.DepartmentBuilder()
-                .id(1L)
-                .name("Law Department")
-                .build();
+        Department department = new Department();
+                department.setId(1L);
+                department.setName("Law Department");
 
-        Employee employee = new Employee.EmployeeBuilder()
-                .name("Jhon")
-                .surname("Ponson")
-                //.salary(10.000)
-                .build();
+        Employee employee = new Employee();
+                employee.setName("Jhon");
+                employee.setSurname("Ponson");
 
-        Employee employee1 = new Employee.EmployeeBuilder()
-                .name("Joanna")
-                .surname("Black")
-                //.salary(20.000)
-                .build();
+        Employee employee1 = new Employee();
+                employee1.setName("Joanna");
+                employee1.setSurname("Black");
 
 
         employeeList.add(employee);
@@ -84,7 +79,6 @@ public class DomainRelationsTest {
             session.save(department);
             tx.commit();
         }
-
 
             departmentId = department.getId();
             assertNotNull(departmentId);

@@ -10,7 +10,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import pl.sda.hibernate.pl.sda.hibernate.util.SessionUtil;
 
-import javax.validation.ConstraintViolationException;
 import java.time.LocalDate;
 
 import static org.testng.Assert.assertNotNull;
@@ -18,7 +17,7 @@ import static org.testng.Assert.fail;
 
 public class EmployeeInfoValidatorTest {
 
-    SessionFactory sessionFactory;
+    private SessionFactory sessionFactory;
 
     @BeforeSuite
     public void setup() {
@@ -36,10 +35,10 @@ public class EmployeeInfoValidatorTest {
     @Test
     public void shouldAllowPersistingValidBean() {
 
-        EmployeeInfoValidator employeeInfoValidator = new EmployeeInfoValidator.EmployeeInfoValidatorBuilder()
-                .employeeInfoId(1L)
-                .hiredDate(LocalDate.of(2019, 1, 1))
-                .build();
+        EmployeeInfoValidator employeeInfoValidator = new EmployeeInfoValidator();
+                employeeInfoValidator.setEmployeeInfoId(1L);
+                employeeInfoValidator.setHiredDate(LocalDate.of(2019, 1, 1));
+
 
         try (Session session = SessionUtil.getSession()) {
             Transaction transaction = session.beginTransaction();
@@ -53,10 +52,9 @@ public class EmployeeInfoValidatorTest {
     @Test(expectedExceptions = IllegalStateException.class)
     public void shouldNotAllowPersistingNotValidBean() {
 
-        EmployeeInfoValidator employeeInfoValidator2 = EmployeeInfoValidator.builder()
-                .employeeInfoId(1L)
-                .hiredDate(LocalDate.of(2000, 1, 1))
-                .build();
+        EmployeeInfoValidator employeeInfoValidator2 = new EmployeeInfoValidator();
+                employeeInfoValidator2.setEmployeeInfoId(1L);
+                employeeInfoValidator2.setHiredDate(LocalDate.of(2000, 1, 1));
 
         try (Session session = SessionUtil.getSession()) {
             Transaction transaction = session.getTransaction();

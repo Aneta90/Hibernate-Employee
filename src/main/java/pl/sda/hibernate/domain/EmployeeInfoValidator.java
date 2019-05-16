@@ -6,13 +6,9 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
-@Getter
-@Setter
-@Entity
+@Data
 @AfterCompanyWasCreated
+@Entity
 public class EmployeeInfoValidator {
 
 
@@ -26,11 +22,40 @@ public class EmployeeInfoValidator {
     @Transient
     private Long daysSinceHired;
 
+    public EmployeeInfoValidator() {
+    }
+
+    public EmployeeInfoValidator(LocalDate hiredDate, Long daysSinceHired) {
+        this.hiredDate = hiredDate;
+        this.daysSinceHired = daysSinceHired;
+    }
+
     public void calculateDaysSinceHired(){
         this.daysSinceHired = ChronoUnit.DAYS.between(hiredDate,LocalDate.now());
         System.out.println(daysSinceHired);
     }
 
+    public Long getEmployeeInfoId() {
+        return employeeInfoId;
+    }
 
+    public void setEmployeeInfoId(Long employeeInfoId) {
+        this.employeeInfoId = employeeInfoId;
+    }
 
+    public LocalDate getHiredDate() {
+        return hiredDate;
+    }
+
+    public void setHiredDate(LocalDate hiredDate) {
+        this.hiredDate = hiredDate;
+    }
+
+    public Long getDaysSinceHired() {
+        return daysSinceHired;
+    }
+
+    public void setDaysSinceHired(Long daysSinceHired) {
+        this.daysSinceHired = daysSinceHired;
+    }
 }
